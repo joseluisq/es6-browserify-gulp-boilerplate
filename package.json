@@ -1,0 +1,48 @@
+{
+  "name": "es6-browserify-gulp-boilerplate",
+  "version": "0.1.0",
+  "description": "A simple ES6 Babel, Browserify and Gulp boilerplate.",
+  "homepage": "https://github.com/joseluisq/es6-browserify-gulp-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joseluisq/es6-browserify-gulp-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joseluisq/es6-browserify-gulp-boilerplate/issues"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.4",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.10.0",
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.0",
+    "lodash": "^3.10.1",
+    "rimraf": "^2.4.3",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^3.6.0"
+  },
+  "author": "Christoph Burgdorf <christoph@thoughtram.io>",
+  "license": "MIT",
+  "contributors": [
+    "José Luis Quintana <quintana.io>"
+  ],
+  "babel": {
+    "env": {
+      "development": {
+        "presets": [
+          "es2015"
+        ]
+      }
+    }
+  },
+  "xo": {
+    "space": true,
+    "esnext": true,
+    "envs": [
+      "browser",
+      "jquery",
+      "amd"
+    ]
+  }
+}
