@@ -1,4 +1,4 @@
-## ES6 Browserify Gulp Boilerplate
+## ES6 Browserify Gulp Boilerplate [![devDependency Status](https://david-dm.org/joseluisq/es6-browserify-gulp-boilerplate/dev-status.svg?style=flat-square)](https://david-dm.org/joseluisq/es6-browserify-gulp-boilerplate#info=devDependencies)
 
 > A simple ES6 [Babel](http://babeljs.io/), [Browserify](http://browserify.org/) and [Gulp](http://gulpjs.com) boilerplate inspired by [es6-babel-browserify-boilerplate](https://github.com/thoughtram/es6-babel-browserify-boilerplate).
 
