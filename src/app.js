@@ -1,4 +1,4 @@
-import {Person} from './model/Person';
+import Person from './model/Person';
 
 global.app = () => {
   const me = new Person('John', 'Doe');
